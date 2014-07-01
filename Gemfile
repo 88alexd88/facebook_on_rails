@@ -27,11 +27,17 @@ gem 'simple_form'
 # Add User Authentication using devise
 gem 'devise'
 
+
+# Add facebook Athentication via omniauth
+gem 'omniauth-facebook'
+
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
+
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
