@@ -24,6 +24,9 @@ gem 'jbuilder', '~> 2.0'
 # Add Simplefrom
 gem 'simple_form'
 
+# Add User Authentication using devise
+gem 'devise'
+
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
