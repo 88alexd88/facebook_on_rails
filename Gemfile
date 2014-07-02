@@ -34,6 +34,7 @@ gem 'omniauth-facebook'
 gem "flat-ui-rails"
 
 # Adding further integration with facebook
+gem "koala"
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
